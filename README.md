@@ -1,4 +1,4 @@
-# NBStream-Package 
+# NBStream-Package 🚀
 
 ## 📌 Overview
 
@@ -59,14 +59,12 @@ pip install -r requirements_dev.txt
 
 ## 📁 Project Structure
 
-```bash
 NBStream/
-│
-├── site.py                # Render websites
-├── youtube.py            # Render YouTube videos
-├── logger.py             # Logging utilities
-├── custom_exception.py   # Custom error handling
-```
+
+* site.py — Render websites
+* youtube.py — Render YouTube videos
+* logger.py — Logging utilities
+* custom_exception.py — Custom error handling
 
 ---
 
