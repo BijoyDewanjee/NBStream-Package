@@ -1,102 +1,47 @@
-# NBStream-Package 🚀
 
-## 📌 Overview
+# NBStream
 
-NBStream is a lightweight Python library designed for Data Scientists and Jupyter Notebook users. It enables seamless rendering of live websites and embedding of YouTube videos directly within your Jupyter Notebook environment (Jupyter Notebook, JupyterLab, Google Colab).
+## Overview
 
-No more tab switching - view everything right beside your code!
-
----
-
-## ✨ Features
-
-- Website Rendering: Render any HTTPS website directly in an output cell
-- YouTube Integration: Intelligent parsing of YouTube URLs to embed videos automatically
-- Customizable: Easily adjust width, height, and alignment
-- Lightweight: Built on top of standard IPython display tools
+NBStream is a lightweight Python library for Jupyter Notebook users. It allows you to render websites and embed YouTube videos directly inside your notebook.
 
 ---
 
-## 📦 Installation
+## Features
 
-pip install NBStream
-
----
-
-## 🚀 Usage
-
-### YouTube Video Rendering
-
-from NBStream.youtube import render_youtube_video
-
-render_youtube_video("https://www.youtube.com/watch?v=h25pePMdoPA&t=712s")
+- Render websites inside notebook cells
+- Embed YouTube videos easily
+- Lightweight and easy to use
 
 ---
 
-### Website Rendering
+## Installation
 
-from NBStream.site import render_site
-
-render_site("https://www.google.com")
+    pip install NBStream
 
 ---
 
-## ⚙️ Local Development Setup
+## Usage
 
-conda create -n nbstream_env python=3.8 -y
-conda activate nbstream_env
-pip install -r requirements_dev.txt
+YouTube Example:
 
----
+    from NBStream.youtube import render_youtube_video
+    render_youtube_video("https://www.youtube.com/watch?v=h25pePMdoPA")
 
-## 📁 Project Structure
+Website Example:
 
-NBStream/
-
-- site.py - Render websites
-- youtube.py - Render YouTube videos
-- logger.py - Logging utilities
-- custom_exception.py - Custom error handling
+    from NBStream.site import render_site
+    render_site("https://www.google.com")
 
 ---
 
-## 💡 Why NBStream?
-
-- Perfect for Data Science workflows
-- Great for learning and tutorials inside notebooks
-- Improves productivity by reducing context switching
-
----
-
-## 🌍 Supported Environments
-
-- Google Colab
-- Jupyter Notebook
-- JupyterLab
-- Any IPython-based notebook
-
----
-
-## 👤 Author
+## Author
 
 Bijoy Dewanjee
-
 GitHub: https://github.com/BijoyDewanjee
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the Apache License.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome. Feel free to fork the repository and submit pull requests.
-
----
-
-## ⭐ Acknowledgement
-
-If anyone finds NBStream useful, consider giving the repository a star on GitHub.
+Apache License
